@@ -1,0 +1,221 @@
+body
+{
+    background-color: #151515;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    min-height: 1000px;
+    overflow: hidden;
+
+
+}
+
+header{
+    margin-right: 3%;
+    margin-left: 3%;
+    position: relative;
+
+}
+
+footer{
+    position: relative;
+
+}
+
+
+.logo{
+    margin-top: 3%;
+    display: inline-block;
+}
+
+.nav2{
+
+
+    float: right;
+    margin-top: 3%;
+    margin-right: 2%;
+
+
+}
+
+.nav2 i{
+    font-size: 30px;
+}
+
+.nav i{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+
+
+}
+
+.nav{
+    float:right;
+    margin-top: 3%;
+}
+
+
+.text{
+    width: 100%;
+    margin-top: 10%;
+
+    display: inline-block;
+    line-height: 450%;
+    text-align: center;
+
+
+}
+
+h9{
+    font-size: 70px;
+
+}
+
+.text a:hover{
+    color: darkblue;
+}
+
+
+
+
+
+
+
+.active{
+    color:darkblue;
+}
+
+article{
+    width: 100%;
+
+
+}
+
+.row{
+    margin-left: 4%;
+    margin-right: 0;
+}
+
+
+.nature{
+    margin-top: 25%;
+    width: 110px;
+
+    padding: 4px 15px 4px 20px;
+    background-color: darkblue;
+
+
+}
+
+
+h1{
+
+    font-size: 75px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin-top: 2%;
+
+
+}
+
+h2{
+    font-size: 20px;
+    color: #979797;
+    line-height: 150%;
+    width: 80%;
+
+}
+
+h3{
+    font-size: 17px;
+    color: #616161;
+
+
+}
+
+span{
+    color: #4B4B4B;
+
+}
+
+
+.main-photo img{
+    margin-top: 20%;
+    width: 100%;
+
+}
+
+.main-photo{
+    margin-bottom: 20%;
+}
+
+
+
+.col-md-5 i{
+    color:darkblue;
+
+
+
+}
+
+.col-md-5 .see-more:hover{
+    font-size: 20px;
+}
+
+.see-more{
+    transition: all 0.2s ease-in;
+}
+
+.social{
+
+    margin-left: 2%;
+    display: inline-block;
+    border-bottom-style: solid;
+    border-bottom-color: #616161;
+}
+
+.social:hover{
+    border-bottom-color: darkblue;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.copy{
+   float: right;
+
+    margin-right: 2%;
+
+
+}
+
+
+
+
+.container2{
+    width: 100%;
+    height: 100%;
+
+    display: none;
+
+    position: absolute;
+    z-index: 2;
+    background-color: #151515;
+
+
+
+}
+
+
+
+
+
+
