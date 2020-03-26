@@ -195,10 +195,8 @@ h2{
 
 .overlay{
     position: relative;
-    height: 100%;
+
     margin-right: 2%;
-
-
 
 }
 
@@ -253,8 +251,6 @@ img {
     height: 100%;
     width: 100%;
     margin-left: 1%;
-
-
 }
 
 .main{
@@ -265,8 +261,10 @@ img {
     margin-right: 1%;
     margin-left: 1%;
 
-}
 
+    margin-bottom: 2%;
+
+}
 
 
 
