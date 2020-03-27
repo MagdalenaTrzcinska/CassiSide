@@ -26,30 +26,16 @@
     <script type="text/javascript">
 
         var numer=1;
-
-
-
-
-
         function zmienslajd() {
             numer++; if(numer>3)numer=1;
 
             var plik= "<img src=\"img/slider-" + numer + ".jpg\"/>";
 
             document.getElementsByClassName('main-photo')[0].innerHTML=plik;
-
-          
-
-
-
             setTimeout("zmienslajd()",3000);
-
-
         }
 
         window.onload=zmienslajd;
-
-
     </script>
 
 </head>
@@ -74,38 +60,24 @@ document.getElementsByClassName('container2')[0].style.display = 'none';
                 <h9><a href="gallery.html" >Gallery</a> </h9> <br/>
                 <h9><a href="contakt.html">Contact</a> </h9> <br/>
             </div>
-
-
-
         </div>
 
     </div>
-
-
     <header>
 
         <div class="logo">
             <a href="#"><img src="img/logo.png"> </a>
         </div>
-
-
         <div class="nav">
             <i class="icon_menu" onclick="function myFunction() {
 document.getElementsByClassName('container2')[0].style.display = 'block';
                 }
                 myFunction()"></i>
         </div>
-
-
-
-
         <div style=”clear:both”><div/>
         </div>
     </header>
-
-
             <article class="main">
-
                 <div class="row">
                     <div class="col-md-5">
                         <div class="nature">NATURE</div>
@@ -125,7 +97,6 @@ document.getElementsByClassName('container2')[0].style.display = 'block';
 
             </article>
 
-
         <footer>
             <div class="social">
                 <a href="facebook.com">Facebook</a>
@@ -139,36 +110,10 @@ document.getElementsByClassName('container2')[0].style.display = 'block';
                 <a href="#">Instagram</a>
             </div>
 
-
             <div class="copy">
                 <h3>Copyright &copy 2020 All right reserved | Inspired by <span>Colorlib</span></h3>
             </div>
-
-
-
         </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </main>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
